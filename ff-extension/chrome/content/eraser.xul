@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<overlay id="eraser" 
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script src="eraser.js"/>
+  <script src="bootstrap.js"/>
+</overlay>

@@ -1,0 +1,18 @@
+{
+  "name": "Eraser",
+  "description": "Remove annoying things from web pages for distraction free reading",
+  "version": "0.1",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_title": "Remove annoying things from web pages for distraction free reading."
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["eraser.js", "bootstrap.js"]
+    }
+  ],  
+  "manifest_version": 2
+}
